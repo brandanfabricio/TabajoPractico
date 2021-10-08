@@ -1,0 +1,39 @@
+.contenedor{
+    display:flex;
+      
+    justify-content: center;
+    
+        
+}
+.volver{
+    text-align: center;
+}
+.volver a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.volver a:hover{
+    color:rgb(255, 6, 201);
+}
+.usuario{
+    text-align: center;
+    
+ 
+    
+}
+.datos{
+    
+    text-align: center;
+    
+    
+}
+.des{
+  
+    text-align: center;
+    
+    
+}
+.btn{
+    text-align: center;
+
+}

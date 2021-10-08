@@ -1,0 +1,54 @@
+
+.contenedor {
+    margin:auto 100px ;
+    padding:20px;
+   
+    display: flex;
+    justify-content:space-around;
+    background-color:#F2F2F2;
+}
+
+.con-img{
+    margin-right:30px;
+    margin-top:80px;
+}
+
+
+/*nav*/
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 2rem;
+}
+nav{
+    text-align: center;
+}
+nav a:hover {
+text-shadow: 5px 5px 5px rgba(250, 0, 0, 1);
+
+}
+
+
+.contenedor a {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.contenedor h1 {
+   text-decoration: underline;
+}
+
+@media  (min-width: 600px) {
+    .contenedor{
+       flex-wrap: wrap;
+
+    }
+    .con-img{
+        margin-top: 0px;
+    }
+    h1{
+        text-align: center;
+    }
+}

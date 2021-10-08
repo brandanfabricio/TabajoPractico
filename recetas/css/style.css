@@ -1,0 +1,48 @@
+body{
+ padding: 0px;
+ margin: 0px;
+}
+
+
+li{
+    list-style: none;
+}
+
+.contenedor{
+    width: 1000px;
+    height: 1000px;
+     
+     margin: 80px;
+     padding:2px;
+     background-color:#fafafacb;
+     
+
+}
+.contenedor ul{
+    display:flex;
+    justify-content: space-evenly;
+}
+.contenedor h1 {
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(250, 0, 0, 1);
+}
+.contenedor img {
+    width: 200px;
+    height: 200px;
+}
+
+.nav{
+    font-size: 2rem;
+    text-align: center;
+}
+.nav a {
+    text-decoration: none;
+}
+.nav li {
+    list-style: none;
+
+}
+.nav a:hover {
+    text-shadow: 5px 5px 5px rgba(250, 0, 0, 1);
+
+}

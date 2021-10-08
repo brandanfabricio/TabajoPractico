@@ -1,0 +1,35 @@
+nav{
+    text-align: center;
+    font-size: 2rem;
+}
+nav li{
+    list-style: none;
+}
+nav a:hover {
+    text-shadow: 5px 5px 5px rgb(117, 0, 250);
+    }
+
+
+
+
+
+/*cuerpo*/
+.contenedor {
+    display: flex;
+    justify-content: center;
+ height: 500px;
+ align-items: center;
+}
+table {
+    height:300px;
+}
+caption {
+    font-size:  3rem;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+text-shadow: 5px 5px 5px rgba(250, 0, 0, 1);
+}

@@ -1,0 +1,39 @@
+
+
+.contenedor{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   background-color: blanchedalmond;
+   flex-direction: column;
+   align-content: center;
+
+   margin: 100px;
+   padding:10px;
+   
+}
+
+.form {
+    font-size: 2rem;
+}
+
+.conte p{
+    margin-left: 40%;
+}
+.res{
+    color: red;
+}
+.num{
+    width: 100%;
+    text-align: center;
+}
+.boton{
+    width: 100px;
+    margin-left:90px;
+
+}
+.error{
+    
+    color: red;
+    font-size: 1.2rem;
+}
