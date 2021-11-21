@@ -1,0 +1,38 @@
+{
+  "materias": [
+    {
+      "Materia": "mate",
+      "idE": "1",
+      "idP": "1",
+      "id": 1
+    }
+  ],
+  "estado": [
+    {
+      "estado": "Aprobada",
+      "id": 1
+    },
+    {
+      "estado": "No Aprovada",
+      "id": 2
+    }
+  ],
+  "profesores": [
+    {
+      "profesor": "Mamani fredi",
+      "id": 1
+    },
+    {
+      "profesor": "gaston mamani",
+      "id": 2
+    },
+    {
+      "profesor": "zack",
+      "id": 3
+    },
+    {
+      "Profesor": "max",
+      "id": 4
+    }
+  ]
+}

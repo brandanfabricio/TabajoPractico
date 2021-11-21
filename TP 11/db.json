@@ -1,0 +1,66 @@
+{
+  "PERSONA": [
+    {
+      "apeynom": "Fredi m,",
+      "domicilio": "san jose ",
+      "telefono": "03863529066",
+      "fechaNacimiento": "1997-07-05",
+      "id": 1
+    },
+    {
+      "apeynom": "zack",
+      "domicilio": "hola",
+      "telefono": "03863529066",
+      "fechaNacimiento": "2021-11-02",
+      "id": 2
+    },
+    {
+      "apeynom": "Fredi Gastonsgdfsgsd",
+      "domicilio": "jklgbjkl",
+      "telefono": "03863529066",
+      "fechaNacimiento": "2021-11-03",
+      "id": 3
+    },
+    {
+      "apeynom": "Fredi Gaston",
+      "domicilio": "jklgbjkl",
+      "telefono": "03863529066",
+      "fechaNacimiento": "2021-11-12",
+      "id": 5
+    }
+  ],
+  "CLIENTE": [
+    {
+      "personaId": "2",
+      "descuento": "15",
+      "fechadecompra": "4564",
+      "id": 1
+    },
+    {
+      "personaId": "1",
+      "descuento": "15",
+      "fechadecompra": "4564",
+      "id": 2
+    },
+    {
+      "personaId": "1",
+      "descuento": "15",
+      "fechadecompra": "15",
+      "id": 3
+    }
+  ],
+  "EMPLEADO": [
+    {
+      "personaId": "2",
+      "descuento": "jefe",
+      "fechadecompra": "4564",
+      "id": 1
+    },
+    {
+      "personaId": "1",
+      "descuento": "jajaja",
+      "fechadecompra": "jajaja",
+      "id": 2
+    }
+  ]
+}

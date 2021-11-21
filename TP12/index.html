@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <section id="prof">
+            <h1>Cargar Porfesores</h1>
+            <input type="text" id="nombreP" placeholder="Nombre del profesor">
+            <button id="btnCP">Cargar Profesor</button>
+            <button id="btnLP">Listar Profesores</button>
+            <button id="btnA">Atras</button>
+            <div id="verP"></div>
+        </section>
+        <section id="mat">
+            <h1>Cargar Materias</h1>
+            <input type="text" placeholder="Nombre de la materia" id="nombreM">
+            <select id="listaP" onchange="cargarVP()">
+                <option value="" selected disabled>seleccione un profesor</option>
+            </select>
+            <select id="listaE" onchange="cargarVE()">
+                <option value="" selected disabled>seleccione el estado</option>
+            </select>
+            <button id="btnAM">Agregar Materia</button>
+            <button id="btnAP">Agregar Profesor</button>
+            <button id="btnMM">Mostrar Materias</button>
+            <div id="verM"></div>
+        </section>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>

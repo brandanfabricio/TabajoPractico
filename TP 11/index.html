@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Empresa</h1>
+    <div id="container">
+        <section id="agregar">
+            <h2>Agregar Personas</h2>
+            <input type="text" placeholder="apellido y nombre" id="nombre">
+            <input type="text" placeholder="domicilio" id="dom">
+            <input type="tel" placeholder="telefono" id="tel">
+            <input type="date" placeholder="frecha de nacimiento" id="fecha">
+            <div id="btn"></div>
+            <div id="a">
+                <button type="button" id="btnP">Agregar Persona</button>
+                <button type="button" id="btnM">Mostrar Personas</button>
+                <button type="button" id="btnC">Mostrar Clientes</button>
+                <button type="button" id="btnE">Mostrar Empleado</button>
+            </div>
+            <div id="ver"></div>
+        </section>
+        <section id="asignar">
+            <h2>Agregar Funcion</h2>
+            <input list="browsers" placeholder="Funcion" id="lista">
+            <datalist id="browsers">
+                <option value="EMPLEADO">
+                <option value="CLIENTE">
+            </datalist>
+            <input type="text" placeholder="" id="z">
+            <input type="text" placeholder="" id="x">
+            <button id="btnP" onclick="agregarfuncio()">agregarfuncion</button>
+        </section>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

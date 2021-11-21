@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP10</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="formulario">
+            <form>  
+
+                <label>DNI</label><br>
+                <input type="number" name="" id="dni"><br>
+                <label>Nombre</label><br>
+                <input type="text" name="" id="nombre"><br>
+                <label >Apellido</label><br>
+                <input type="text" name="" id="apellido"><br>
+
+                <label >Direcciom (calle,nro )</label><br>
+                <input type="text" name="" id="direccion"><br>
+
+                <label>Telefono</label><br>
+                <input type="number" name="" id="numero"><br>
+
+                <label >Email</label><br>
+                <input type="email" name="" id="correo"><br>
+
+                    
+                <input type="submit" value="Guardar" id="btn-guardar">
+            </form>
+    
+
+        </div>
+      
+        <div class="targetas" id="targetas">
+            <h2>Agenda</h2>
+
+            
+            <template id="temple">
+
+                    <div class="targe" id="agenda">
+                        <h3>nombre</h3>
+                        <h4>apellido</h4>
+                        <p>
+                            Dni 
+                            
+                           
+
+                        </p>
+                        <strong>telefono</strong>
+                        <br>
+                        <small>direcion</small><br>
+                        <b>email</b> <br>
+                        <button class="btn-borrar"> x</button>
+                    </div>
+                    
+                </template>
+           
+        </div>
+
+    </div>
+   
+           
+      
+
+
+
+</body>
+  <script src="./apk.js" type="module"></script>
+</html>
